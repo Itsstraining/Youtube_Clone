@@ -1,0 +1,93 @@
+body{
+    background-color: #424242;
+}
+header {
+    grid-area: header;
+    height: 55px;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 150px 1fr 250px;
+    padding: 0 10px 0 10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: -0.2em;
+    width: 100%;
+    z-index: 1;
+    background: #1b1b1b;
+}
+
+.header__logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header__icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.search form {
+    width: 40%;
+    margin: 0 auto;
+    color: black;
+    
+}
+
+
+
+.search__icon {
+    float: right;
+    position: relative;
+    
+    top: -20px;
+    height: 32px;
+    width: 30px;
+    left: 10px;
+}
+
+.header__hamburger-logo {
+    position: relative;
+    top: 10px;
+}
+
+.header__yt-logo {
+    position: relative;
+    top: 7px;
+}
+
+.header__icons--bell {
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+.header__icons--profile {
+    width: 45px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.header__icons--grid {
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 5px;
+    background-color: ghostwhite;
+    outline: none;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 100%;
+  }
