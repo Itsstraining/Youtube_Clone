@@ -1,23 +1,25 @@
 <head>
     <link href="./style.css" rel="stylesheet" />
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Youtube</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <ul class="item">
-                <div class="left">
-                    <li><button>
+
+    <div class="header">
+        <ul class="item">
+            <div class="left">
+                <li><button>
                         <img src="./img/mục lục.png" alt="Lựa chọn" width="30px" height="30px" type="button" onclick=""></li>
                     </button>
-                        <li><button>
+                    <li><button>
                             <img src="./img/youtube.png" alt="Homepage" width="30px" height="30px"></li>
                         </button>
+                        <div class="input-container">
 
-                            <input size="55" style="height: 50px;" class="margin-left" id="user_name" type="text" class="validate" placeholder="Tìm kiếm">
+                            <input class="input-field" type="text" placeholder="Tìm kiếm" name="Search">
+                            <i class="fa fa-search icon"></i>
                             <li><button>
                                 <img src="./img/upload.png" alt="creat" width="30px" height="30px" type="button" onclick=""></li>
                             </button>
@@ -30,22 +32,55 @@
                                         <li><button>
                                     <img src="./img/acc.png" alt="Account" width="30px" height="30px"></li>
                                 </button>
-                </div>
+                        </div>
+        </ul>
+        ------------------------------------
+        <div id="menu">
+
+            <ul>
+
+                <li><a href="#">Tài khoản</a></li>
+                <li><a href="#">thông báo</a></li>
+                <li><a href="#">Phát lại và hiệu suất</a></li>
+                <li><a href="#">Quyền riêng tư</a></li>
+                <li><a href="#">Tài khoản đã kết nối</a></li>
+                <li><a href="#">Xem trên Tv</a></li>
+                <li><a href="#">Lập hóa đơn và thanh toán</a></li>
+                <li><a href="#">Cài đặt nâng cao</a></li>
             </ul>
 
-            <div id="menu">
 
+            <div style="margin-left: 2%;">
+                <p>Thông báo</p>
+                <h2>Chọn cách và thời gian bạn muốn nhận thông báo</h2>
+                <p>Chọn thông báo đẩy và thông báo qua email mà bạn muốn nhận <img src="./img/chim youtu.png" alt="Chim"></p>
+
+                ------------------------------------
+                <p>chung</p>
+                <p>Quản lý thông báo trên màn hình và trên thiết bị di động</p>
+
+                <p>Thông báo trên màn hình</p>
                 <ul>
-                    <li><a href="#">Tài khoản</a></li>
-                    <li><a href="#">thông báo</a></li>
-                    <li><a href="#">Phát lại và hiệu suất</a></li>
-                    <li><a href="#">Quyền riêng tư</a></li>
-                    <li><a href="#">Tài khoản đã kết nối</a></li>
-                    <li><a href="#">Xem trên Tv</a></li>
-                    <li><a href="#">Lập hóa đơn và thanh toán</a></li>
-                    <li><a href="#">Cài đặt nâng cao</a></li>
+                    <li>
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>                        
+                          </label>
+                        <p> <img src="./img/Chrome-Logo.png" alt="Chrome-Logo" width="100" height="100"> Nhận thông báo từ trình duyệt này.</p>
+                    </li>
                 </ul>
-            </div>
-        </div>
 
-</body>
+                <p>Some text..</p>
+                <p>Some text..</p>
+                <p>Some text..</p>
+                <p>Some text..</p>
+
+                <p>Some text..</p>
+                <p>Some text..</p>
+                <p>Some text..</p>
+                <p>Some text..</p>
+
+            </div>
+
+        </div>
+        </div>
