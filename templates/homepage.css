@@ -115,3 +115,18 @@ input[type=text] {
     display: flex;
     flex-direction: column;
 }
+
+.light-mode{
+    background-color: white;
+    color: black
+}
+
+@media (prefers-color-scheme: dark) {
+    img {
+      opacity: .0;
+      transition: opacity .5s ease-in-out;
+    }
+    img:hover {
+      opacity: 1;
+    }
+  }
