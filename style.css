@@ -1,0 +1,59 @@
+.item {
+    height: 75px;
+    background-size: auto;
+    background-color: #424242;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-right: auto;
+}
+
+.left * {
+    display: block;
+    border-right: 1px solid rgba(255, 255, 255, .3);
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-bottom: 3px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.logo-index * {
+    align-items: center;
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-bottom: 7px;
+    color: #fff;
+}
+
+
+/* commit a gian */
+
+#menu ul {
+    background: black;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+
+#menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid white;
+    padding: 0 1em;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+#menu li:hover {
+    background: #424242;
+}
