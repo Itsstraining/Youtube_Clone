@@ -1,6 +1,8 @@
 <head>
     <title>youtube</title>
     <link href="homepage.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -12,10 +14,10 @@
                 <input type="text" name="search" placeholder="Search..">
             </form>
         </div>
-        <div>
-            <button class="cursorbtn" type="button" onclick=""><img src="">Dark mode</button>
-            <a class="button" type="button" onclick=""><img src="/img/bell.png"></a>
-            <button class="cursorbtn" type="button" onclick=""><img src="">Sign in</button>
+        <div class="cursorbtn" style="align-items: center">
+            <a href=""><img src="img/moon.png"></a>
+            <a><img src="/img/bell.png"></a>
+            <a class="cursorbtn"><img src="/img/register.png"></a>
         </div>
     </div>
 
@@ -70,8 +72,12 @@
                             ĐÂY | OFFICIAL MUSIC VIDEO</p>
                     </a>
                 </div>
-
-
             </div>
 
+            <script>
+                function myFunction() {
+                    var element = document.body;
+                    element.classList.toggle("light-mode");
+                }
+            </script>
 </body>
