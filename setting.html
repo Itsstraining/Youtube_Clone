@@ -38,14 +38,14 @@
         <div id="menu">
 
             <ul>
-                <li><a type="button" name="show" onclick="hien()">Trang chủ</a></li>
-                <li><a type="button" name="show" onclick="hien()">Thông báo</a></li>
-                <li><a type="button" name="show" onclick="hien()">Phát lại và hiệu suất</a></li>
-                <li><a type="button" name="show" onclick="hien()">Quyền riêng tư</a></li>
-                <li><a type="button" name="show" onclick="hien()">Tài khoản và kết nối</a></li>
-                <li><a type="button" name="show" onclick="hien()">Xem trên Tivi</a></li>
-                <li><a type="button" name="show" onclick="hien()">lập hóa đơn và thanh toán</a></li>
-                <li><a type="button" name="show" onclick="hien()">Cài đặt nâng cao</a></li>
+                <li><a type="button" name="TrangChu" onclick="hien1()">Trang chủ</a></li>
+                <li><a type="button" name="ThongBao" onclick="hien2()">Thông báo</a></li>
+                <li><a type="button" name="Phatlaivahieusuat" onclick="hien3()">Phát lại và hiệu suất</a></li>
+                <li><a type="button" name="Quyenriengtu" onclick="hien4()">Quyền riêng tư</a></li>
+                <li><a type="button" name="Taikhoanvaketnoi" onclick="hien5()">Tài khoản và kết nối</a></li>
+                <li><a type="button" name="XemTivi" onclick="hien6()">Xem trên Tivi</a></li>
+                <li><a type="button" name="thanhtoan" onclick="hien7()">lập hóa đơn và thanh toán</a></li>
+                <li><a type="button" name="caidatnangcao" onclick="hien8()">Cài đặt nâng cao</a></li>
 
             </ul>
 
@@ -72,9 +72,6 @@
                     <div>
                         <p><a href="#" style="color: blue" ;>Xem hoặc thay đổi các tùy chọn cài đặt cho Tài khoản Google của bạn.></a><br>Bạn sẽ được chuyển đến trang Tài khoản Google của mình.</p>
                     </div>
-
-
-
                 </div>
 
                 <div>
@@ -83,17 +80,40 @@
                         <p>Bạn chưa phải thành viên|<a href="#" style="color: blue;">Hãy đăng ký gói YouTube Premium></a><br> YouTube Premium cho phép bạn nghe nhạc không gián đoạn, xem video không có quảng cáo và nhiều lợi ích khác </p>
                     </div>
                 </div>
-
-                ------------------------------------
             </div>
 
 
 
+            <div id="hide2">
+                <p>Thông báo</p>
+                <h2>Chọn cách và thời gian bạn muốn nhận thông báo <img style="text-align: right;" src="./img/chim youtu.png" alt="Chim youtube" width="80" height="80"></h2>
+                <p>Chọn thông báo đẩy và thông báo qua email mà bạn muốn nhận </p>
+
+                ------------------------------------
+                <p>Chung</p>
+                <p>Quản lý thông báo trên màn hình và trên thiết bị di động </p>
+                <div>
+                    <div>
+                        <p>Thông báo trên màn hình </p>
+                    </div>
+                    <div style="text-align: center;">
+                        <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                        <p style="text-align: right;">Nhận thông báo trên trình duyệt này
+                        </p>
+                        <img src="./img/Chrome-Logo.png" alt="Chrome-logo" style="text-align: right;" width="60" height="60">
+
+                    </div>
 
 
-            <script>
-                function hien() {
-                    document.getElementById("hide1").style.display = "block";
-                }
-            </script>
+
+
+
+                </div>
+
+
+
+                <script src="./script for setting.js"></script>
 </body>
