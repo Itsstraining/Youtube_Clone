@@ -1,11 +1,11 @@
 <head>
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./setting.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Youtube</title>
 </head>
 
-<body>
+<body style="background: #424242;">
 
     <div class="header">
         <ul class="item">
@@ -38,49 +38,85 @@
         <div id="menu">
 
             <ul>
+                <li><a type="button" name="TrangChu" onclick="hien1()">Trang chủ</a></li>
+                <li><a type="button" name="ThongBao" onclick="hien2()">Thông báo</a></li>
+                <li><a type="button" name="Phatlaivahieusuat" onclick="hien3()">Phát lại và hiệu suất</a></li>
+                <li><a type="button" name="Quyenriengtu" onclick="hien4()">Quyền riêng tư</a></li>
+                <li><a type="button" name="Taikhoanvaketnoi" onclick="hien5()">Tài khoản và kết nối</a></li>
+                <li><a type="button" name="XemTivi" onclick="hien6()">Xem trên Tivi</a></li>
+                <li><a type="button" name="thanhtoan" onclick="hien7()">lập hóa đơn và thanh toán</a></li>
+                <li><a type="button" name="caidatnangcao" onclick="hien8()">Cài đặt nâng cao</a></li>
 
-                <li><a href="#">Tài khoản</a></li>
-                <li><a href="#">thông báo</a></li>
-                <li><a href="#">Phát lại và hiệu suất</a></li>
-                <li><a href="#">Quyền riêng tư</a></li>
-                <li><a href="#">Tài khoản đã kết nối</a></li>
-                <li><a href="#">Xem trên Tv</a></li>
-                <li><a href="#">Lập hóa đơn và thanh toán</a></li>
-                <li><a href="#">Cài đặt nâng cao</a></li>
             </ul>
 
 
-            <div style="margin-left: 2%;">
-                <p>Thông báo</p>
-                <h2>Chọn cách và thời gian bạn muốn nhận thông báo</h2>
-                <p>Chọn thông báo đẩy và thông báo qua email mà bạn muốn nhận <img src="./img/chim youtu.png" alt="Chim"></p>
+
+            <div id="hide1">
+                <p>Tài khoản</p>
+                <h2>Chọn cách bạn xuất hiện và nội dung bạn muốn xem trên YouTube
+                    <img src="./img/inAccount.png" alt="Ống nhòm" width="60" height="60"></h2>
+                <p>Đăng nhập bằng tài khoản của bạn</p>
 
                 ------------------------------------
-                <p>chung</p>
-                <p>Quản lý thông báo trên màn hình và trên thiết bị di động</p>
+                <p>Kênh YouTube của bạn</p>
+                <p>Đây là sự hiện diện công khai của bạn trên YouTube. Bạn cần có một kênh để tải video của riêng mình lên, bình luận về các video hoặc tạo danh sách phát.</p>
 
-                <p>Thông báo trên màn hình</p>
-                <ul>
-                    <li>
-                        <label class="switch">
-                            <input type="checkbox">
-                            <span class="slider round"></span>                        
-                          </label>
-                        <p> <img src="./img/Chrome-Logo.png" alt="Chrome-Logo" width="100" height="100"> Nhận thông báo từ trình duyệt này.</p>
-                    </li>
-                </ul>
+                <p>Kênh của bạn &#160;&#160;&#160;&#160;&#160;&#160;<a href="#" style="color: blue" ;> Tạo 1 kênh </a> </p>
 
-                <p>Some text..</p>
-                <p>Some text..</p>
-                <p>Some text..</p>
-                <p>Some text..</p>
+                ------------------------------------
+                <p>Tài khoản của bạn</p>
+                <p>Bạn đăng nhập YouTube bằng Tài khoản Google của mình </p>
 
-                <p>Some text..</p>
-                <p>Some text..</p>
-                <p>Some text..</p>
-                <p>Some text..</p>
+                <div>
+                    <p> Tài khoản Google </p>
+                    <div>
+                        <p><a href="#" style="color: blue" ;>Xem hoặc thay đổi các tùy chọn cài đặt cho Tài khoản Google của bạn.></a><br>Bạn sẽ được chuyển đến trang Tài khoản Google của mình.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Tư cách thành viên </p>
+                    <div>
+                        <p>Bạn chưa phải thành viên|<a href="#" style="color: blue;">Hãy đăng ký gói YouTube Premium></a><br> YouTube Premium cho phép bạn nghe nhạc không gián đoạn, xem video không có quảng cáo và nhiều lợi ích khác </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="hide2">
+                <p>Thông báo</p>
+                <h2>Chọn cách và thời gian bạn muốn nhận thông báo <img src="./img/chim youtu.png" alt="Chim youtube" width="80" height="80"></h2>
+                <p>Chọn thông báo đẩy và thông báo qua email mà bạn muốn nhận </p>
+
+                ------------------------------------
+                <div>
+                    <p>Chung</p>
+                    <p>Quản lý thông báo trên màn hình và trên thiết bị di động </p>
+                    <div class='display'>
+                        <div>
+                            <p>Thông báo trên màn hình </p>
+                        </div>
+                        <div class='display-2'>
+                            <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                            <div>
+                                <p>Nhận thông báo trên trình duyệt này</p>
+                                <p><img src="./img/Chrome-Logo.png" alt="Chrome-logo" width="60" height="60">Chrome</p>
+                                <p>Nhận thông báo trên máy tính ngay cả khi bạn không đang xem YouTube</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
 
-        </div>
-        </div>
+
+
+            <script src="./script for setting.js"></script>
+</body>
