@@ -105,6 +105,7 @@
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin-left: 20%;
 }
 
 .switch input {
@@ -171,5 +172,14 @@ img {
 }
 
 #hide2 {
-    display: none;
+    margin-left: 5%;
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-2 {
+    display: contents;
 }
