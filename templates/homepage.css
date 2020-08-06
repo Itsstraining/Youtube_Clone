@@ -99,10 +99,11 @@ input[type=text] {
 
 .videorow{
     display: grid;
-    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
+    grid-template-columns: 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr;
     grid-template-rows: 0.2fr;
     font-size: large;
     justify-content: space-between;
+    word-break: break-word;
 }
 
 .videotitle{
@@ -131,5 +132,8 @@ input[type=text] {
   }
 
   .video-back{
-      background-color: #424242;
+    background-color: #424242;
+    opacity: 0.9;
   }
+ 
+  
