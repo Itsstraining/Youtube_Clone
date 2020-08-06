@@ -1,5 +1,5 @@
 .background{
-    background-color: #424242;
+    background-image: url('https://images6.alphacoders.com/930/930345.jpg');
 }
 
 .container{
@@ -91,7 +91,6 @@ input[type=text] {
 }
 
 .outcontainer{
-    background-color: #424242;
     display:block;
     align-items: center;
     color: white;
@@ -129,4 +128,8 @@ input[type=text] {
     img:hover {
       opacity: 1;
     }
+  }
+
+  .video-back{
+      background-color: #424242;
   }
