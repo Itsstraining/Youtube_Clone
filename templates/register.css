@@ -4,8 +4,7 @@
 }
 
 .box{
-    height: auto;
-    min-height: 500px;
+    height: 600px;
     width: 448px;
     border: 1px solid lightgrey;
     outline: none;
@@ -16,8 +15,7 @@
     direction: ltr;
     display: inline-block;
     text-align: center;
-    margin-left: 100%;
-    margin-top: 10%;
+    margin:5% 100%;
     background-color: #424242;
     color:lightgrey;
 }
@@ -54,7 +52,27 @@ input[type=password] {
     transition: width 0.4s ease-in-out;
 }
 
+
 input[type=password]:focus {
+    width: 80%;
+}
+
+input[type=tel] {
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 9%;
+    background-color: ghostwhite;
+    outline: none;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=tel]:focus {
     width: 80%;
 }
 
@@ -64,4 +82,10 @@ input[type=password]:focus {
 
 .margin-top{
     margin-top: 5%;
+}
+
+.regisbtn{
+    background-color: #424242;
+    cursor: pointer;
+    border: none;
 }
