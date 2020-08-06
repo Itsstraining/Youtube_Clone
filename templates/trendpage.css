@@ -1,0 +1,109 @@
+body {
+    background-image: url('https://images6.alphacoders.com/930/930345.jpg');
+    background-size: 100%;
+    display: grid;
+}
+
+header {
+    grid-area: header;
+    height: 55px;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 150px 1fr 250px;
+    padding: 0 10px 0 10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: -0.2em;
+    width: 100%;
+    z-index: 1;
+    background: rgb(31, 30, 30);
+}
+
+.header-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+}
+
+.header-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.search form {
+    width: 40%;
+    margin: auto;
+    color: black;
+}
+
+.search-icon {
+    float: right;
+    position: relative;
+    top: -20px;
+    height: 32px;
+    width: 30px;
+    left: 10px;
+}
+
+.header-hamburger-logo {
+    position: relative;
+    top: 10px;
+}
+
+.header-yt-logo {
+    position: relative;
+    top: 7px;
+}
+
+.header-icons-bell {
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+.header-icons-profile {
+    width: 45px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.header-icons-grid {
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+
+input[type=text] {
+    background-image: url('./imagekien/search.png');
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: 1%;
+    font-size: 16px;
+    background-color: #ccc;
+    outline: none;
+    padding: 12px 20px 12px 40px;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+
+
+
+.maintask {
+
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 5em;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(231, 231, 231);
+}
+
