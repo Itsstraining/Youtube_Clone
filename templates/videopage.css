@@ -120,6 +120,7 @@ main {
     background-color: rgb(24, 23, 23);
     padding: 30px;
     height: 120px;
+    opacity: 0.95;
 }
 
 .sub-Describe {
@@ -127,14 +128,17 @@ main {
     padding: 20px;
     background-color: rgb(39, 38, 38);
     text-decoration: none;
+    opacity: 0.92;
 }
 
 .showmor {
     padding: 20px;
     background-color: rgb(107, 15, 15);
+    opacity: 0.75;
 }
 
 section {
+   
     color: white;
     grid-area: section;
     display: grid;
@@ -176,7 +180,7 @@ section {
     position: relative;
     top: 0.5em;
     text-decoration: none;
-    color: gray;
+    color: white;
 }
 
 .commentsdemo {
