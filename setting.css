@@ -16,7 +16,8 @@
     font-size: 1.6rem;
     display: inline-block;
     margin-bottom: 3px;
-    color: #fff;
+    columns: #442244;
+    ;
     margin-right: 10px;
 }
 
@@ -96,6 +97,7 @@
 #menu {
     display: flex;
     justify-content: start;
+    color: white;
 }
 
 .switch {
