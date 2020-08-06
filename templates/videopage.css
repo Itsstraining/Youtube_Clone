@@ -19,12 +19,12 @@ header {
     background: rgb(31, 30, 30);
 }
 
-.header__logo {
+.header-logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.header__icons {
+.header-icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -35,7 +35,7 @@ header {
     color: black;
 }
 
-.search__icon {
+.search-icon {
     float: right;
     position: relative;
     top: -20px;
@@ -44,36 +44,37 @@ header {
     left: 10px;
 }
 
-.header__hamburger-logo {
+.header-hamburger-logo {
     position: relative;
     top: 10px;
 }
 
-.header__yt-logo {
+.header-yt-logo {
     position: relative;
     top: 7px;
 }
 
-.header__icons--bell {
+.header-icons-bell {
     position: relative;
     top: 18px;
     left: 20px;
 }
 
-.header__icons--profile {
+.header-icons-profile {
     width: 45px;
     position: relative;
     top: 5px;
     left: 5px;
 }
 
-.header__icons--grid {
+.header-icons-grid {
     position: relative;
     top: 17px;
     left: 20px;
 }
 
 input[type=text] {
+    background-image: url('./imagekien/search.png');
     width: 60%;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -149,13 +150,13 @@ section {
     justify-content: space-between;
 }
 
-.comments__name {
+.comments-name {
     position: relative;
     bottom: 3em;
     font-size: 0.86em;
 }
 
-.comments__comment {
+.comments-comment {
     position: relative;
     bottom: 2em;
     line-height: 1.3em;
@@ -170,7 +171,7 @@ section {
     bottom: 2em;
 }
 
-.comments__text {
+.comments-text {
     margin-top: -3px;
     position: relative;
     top: 0.5em;
