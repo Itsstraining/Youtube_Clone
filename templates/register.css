@@ -82,8 +82,13 @@ input[type=tel]:focus {
     margin-top: 5%;
 }
 
-.regisbtn {
-    background-color: #424242;
+.regis{
     cursor: pointer;
+    transition: .5s ease;
     border: none;
+    background-color: #424242;
+}
+
+.regis:hover{
+    opacity: 0.5;
 }
