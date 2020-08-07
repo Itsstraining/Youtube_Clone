@@ -1,27 +1,25 @@
-.background{
+.background {
     background-image: url('https://images6.alphacoders.com/930/930345.jpg');
     display: inline-block;
 }
 
-.box{
-    height: 600px;
+.box {
+    height: 680px;
     width: 448px;
     border: 1px solid lightgrey;
     outline: none;
     border-radius: 10px;
-    padding: 48px,40px,36px;
-    align-content: center;
-    box-sizing: inherit;
-    direction: ltr;
-    display: inline-block;
     text-align: center;
-    margin:5% 100%;
+    margin-left:40%;
+    width: 60%;
+    padding: 10px;
     background-color: #424242;
-    color:lightgrey;
+    color: lightgrey;
 }
 
 input[type=text] {
     width: 50%;
+    height: 8%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -40,6 +38,7 @@ input[type=text]:focus {
 
 input[type=password] {
     width: 50%;
+    height: 8%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -51,7 +50,6 @@ input[type=password] {
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
 }
-
 
 input[type=password]:focus {
     width: 80%;
@@ -59,6 +57,7 @@ input[type=password]:focus {
 
 input[type=tel] {
     width: 50%;
+    height: 8%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -71,20 +70,19 @@ input[type=tel] {
     transition: width 0.4s ease-in-out;
 }
 
-
 input[type=tel]:focus {
     width: 80%;
 }
 
-.forgpass{
+.forgpass {
     color: lightgray;
 }
 
-.margin-top{
+.margin-top {
     margin-top: 5%;
 }
 
-.regisbtn{
+.regisbtn {
     background-color: #424242;
     cursor: pointer;
     border: none;

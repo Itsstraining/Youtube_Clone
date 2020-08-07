@@ -4,8 +4,7 @@
 }
 
 .box{
-    height: auto;
-    min-height: 500px;
+    height: 680px;
     width: 448px;
     border: 1px solid lightgrey;
     outline: none;
@@ -13,8 +12,6 @@
     padding: 48px,40px,36px;
     align-content: center;
     box-sizing: inherit;
-    direction: ltr;
-    display: inline-block;
     text-align: center;
     margin-left: 100%;
     margin-top: 10%;
@@ -24,6 +21,7 @@
 
 input[type=text] {
     width: 50%;
+    height: 8%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -42,6 +40,7 @@ input[type=text]:focus {
 
 input[type=password] {
     width: 50%;
+    height: 8%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
