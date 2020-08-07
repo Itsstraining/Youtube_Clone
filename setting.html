@@ -42,10 +42,9 @@
             <li><a type="button" name="ThongBao" onclick="hien2()">Thông báo</a></li>
             <li><a type="button" name="Phatlaivahieusuat" onclick="hien3()">Phát lại và hiệu suất</a></li>
             <li><a type="button" name="Quyenriengtu" onclick="hien4()">Quyền riêng tư</a></li>
-            <li><a type="button" name="Taikhoanvaketnoi" onclick="hien5()">Tài khoản và kết nối</a></li>
-            <li><a type="button" name="XemTivi" onclick="hien6()">Xem trên Tivi</a></li>
-            <li><a type="button" name="thanhtoan" onclick="hien7()">lập hóa đơn và thanh toán</a></li>
-            <li><a type="button" name="caidatnangcao" onclick="hien8()">Cài đặt nâng cao</a></li>
+            <li><a type="button" name="XemTivi" onclick="hien5()">Xem trên Tivi</a></li>
+            <li><a type="button" name="thanhtoan" onclick="hien6()">lập hóa đơn và thanh toán</a></li>
+            <li><a type="button" name="caidatnangcao" onclick="hien7()">Cài đặt nâng cao</a></li>
 
         </ul>
 
@@ -154,7 +153,7 @@
 
             </div>
         </div>
-        <div id="hide8">
+        <div id="hide7">
             <div class="display">
                 <div>
                     <p>Cài đặt nâng cao</p>
@@ -175,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <div id="hide6">
+        <div id="hide5">
             <div class="display">
                 <div>
                     <p>Xem trên TV</p>
@@ -193,7 +192,7 @@
                 <li> Nhấp vào biểu tượng<i class="fa fa-tv icon" style="background: none;"></i> để chọn màn hình sẽ phát video của bạn.</li>
             </ol>
         </div>
-        <div id="hide7">
+        <div id="hide6">
             <div class="display">
                 <div>
                     <p>Lập hóa đơn và thanh toán </p>
@@ -223,7 +222,101 @@
                     <img src="./img/glass.png">
                 </div>
             </div>
+            <div class="display">
+                <div>
+                    <p>Thẻ thông tin</p>
+                </div>
+                <div>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="a1" name="a1" value="a1">
+                        <label for="a1"> Hiển thị thẻ thông tin trong video</label><br>
+                    </form>
+                </div>
+            </div>
+
+            <div class="display">
+                <div>
+                    <p>phụ đề</p>
+                </div>
+                <div>
+                    <form action="/action_page.php">
+                        <input type="checkbox" id="a2" name="a2" value="a2">
+                        <label for="a2"> Luôn có phụ đề</label><br>
+                        <input type="checkbox" id="a3" name="a3" value="Boat">
+                        <label for="a3"> Bao gồm cả phụ đề được tạo tự động (nếu có)</label><br>
+                    </form>
+                </div>
+            </div>
+            <div class="display">
+                <div>
+                    <p>Cài đặt AV1</p>
+                </div>
+                <div>
+                    <label class="container">Cài đặt mặc định (nên dùng)
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                    <label class="container">Ưu tiên dùng AV1 cho chế độ SD
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                    <label class="container">Luôn ưu tiên AV1
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+            </div>
         </div>
-        <script src="./script for setting.js ">
-        </script>
+        <div id="hide4">
+            <div class="display">
+                <div>
+                    <p>Quyền riêng tư</p>
+                    <h2>Quản lý nội dung mà bạn chia sẻ trên YouTube</h2>
+                    <p style="color: rgb(170, 170, 170);">Chọn những người có thể xem danh sách phát đã lưu và các kênh đăng ký của bạn. </p>
+                    <p>Xem <a href="https://www.youtube.com/t/terms" style="color: rgb(62,166,255);">Điều khoản dịch vụ của Youtube</a> và <a style="color: rgb(62,166,255);" href="https://policies.google.com/privacy?hl=vi">Chính sách quyền riêng tư của Google</a></p>
+                </div>
+                <div style="margin-left: 45;">
+                    <img src="./img/4.png">
+                </div>
+            </div>
+            <div class="display">
+                <div>
+                    <p> Danh sách phát và kênh đăng ký. </p>
+                </div>
+                <div>
+                    <label class="container">Đặt tất cả danh sách phát đã lưu ở chế độ riêng tư
+                        <input type="checkbox" checked="checked" name="radio">
+                        <span class="checkmark"></span>
+                      </label>
+                    <label class="container">Đặt tất cả các kênh đăng ký của tôi ở chế độ riêng tư
+                        <input type="checkbox" name="radio">
+                        <span class="checkmark"></span>
+                 </div>
+            </div>
+            <div class="display-3">
+                <div><p>Quảng cáo dựa trên mối quan tâm của tôi</p></div>
+                <div>
+                    <p>Phân phát các quảng cáo phù hợp dựa trên trải nghiệm duyệt web trực tuyến cũng như lịch sử xem YouTube của bạn.<br>Bạn có thể quản lý các tùy chọn quảng cáo từ phần <a href="https://adssettings.google.com/authenticated?hl=vi">Cài đặt quảng cáo của Google</a> <br>Tại đó, bạn có thể thực hiện các hành động sau</p>
+                </div>
+                <div>
+                    <ul style="background: none;">
+                        <li>Xem hoặc quản lý các danh mục sở thích và nhân khẩu học</li><br>
+                        <li>Chặn một số nhà quảng cáo nhất định</li><br>
+                        <li>Chọn không xem các quảng cáo dựa trên sở thích</li>
+                    </ul><br>
+                </div>
+                    
+                    <p>Xin lưu ý rằng YouTube là một công ty của Google.</p>
+                    
+                </div>
+
+                
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="./script for setting.js ">
+    </script>
 </body>
