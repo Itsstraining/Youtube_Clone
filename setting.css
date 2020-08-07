@@ -177,9 +177,19 @@ img {
     display: none;
 }
 
+#hide8 {
+    margin-left: 5%;
+    display: none;
+}
+
+#hide6 {
+    margin-left: 5%;
+    display: none;
+}
+
 .display {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .display-2 {
