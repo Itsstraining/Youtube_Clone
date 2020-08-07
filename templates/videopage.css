@@ -17,6 +17,7 @@ header {
     width: 100%;
     z-index: 1;
     background: rgb(31, 30, 30);
+    opacity: 0.9;
 }
 
 .header-logo {
@@ -136,7 +137,7 @@ main {
 .showmor {
     padding: 20px;
     background-color: rgb(107, 15, 15);
-    opacity: 0.75;
+    opacity: 0.86;
 }
 
 section {
