@@ -203,12 +203,12 @@ input[type=text]:focus {
   }
 
   .video-back{
-      background-color: transparent;
+    transition: .5s ease;
+    background-color: #1b1b1b
   }
 
   .video-back:hover{
-    opacity: 0.9;
-    background-color: #424242;
+    opacity: 0.7;
   }
  
   
