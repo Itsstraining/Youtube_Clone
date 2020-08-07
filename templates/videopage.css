@@ -102,6 +102,7 @@ p {
 }
 
 main {
+    
     margin: 0 1.8em 0 1.8em;
     display: grid;
     grid-gap: 1.5em;
@@ -110,6 +111,7 @@ main {
 }
 
 .maintask {
+    width: 60%;
     display: grid;
     margin-top: 1.5em;
     grid-template-columns: 1fr minmax(200px, 90em) 1fr;
@@ -186,7 +188,22 @@ section {
 .commentsdemo {
     padding: 20px;
 }
-
-.asidevideo {
-    width: 100%;
+.circle{
+    padding: 20px;
 }
+.asidevideo {
+    width: 250%;
+}
+.asidevideo {
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  .circle:hover .asidevideo {
+    opacity: 0.7;
+  }
+  
