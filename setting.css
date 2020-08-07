@@ -168,18 +168,25 @@ img {
 }
 
 #hide1 {
+    margin-left: 5%;
     display: none;
 }
 
 #hide2 {
     margin-left: 5%;
+    display: none;
 }
 
 .display {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
 .display-2 {
     display: contents;
+    flex-direction: column;
+}
+
+.display-3 {
+    display: flex;
 }
