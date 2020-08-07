@@ -64,3 +64,12 @@ input[type=password]:focus {
 .margin-top{
     margin-top: 5%;
 }
+
+.loginwith{
+    cursor: pointer;
+    transition: .5s ease
+}
+
+.loginwith:hover{
+    opacity: 0.7;
+}

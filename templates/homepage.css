@@ -200,3 +200,12 @@ input[type=text]:focus {
       opacity: 1;
     }
   }
+
+video-back{
+    transition: .5s ease;
+  }
+
+  .video-back:hover{
+    opacity: 0.7;
+  }
+  
