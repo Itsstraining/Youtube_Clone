@@ -87,19 +87,32 @@ input[type=text] {
     outline: none;
     padding: 12px 20px 12px 40px;
 }
+
 input[type=text]:focus {
     width: 100%;
 }
 
 .maintask {
-    
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    margin-top: 5em;
+    margin-top: 2em;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(231, 231, 231);
 }
-
+  
+  .asidevideo {
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  .circle:hover .asidevideo {
+    opacity: 0.7;
+  }
+  

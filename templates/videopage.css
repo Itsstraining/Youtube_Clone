@@ -192,3 +192,16 @@ section {
 .asidevideo {
     width: 250%;
 }
+.asidevideo {
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  
+  
+  .circle:hover .asidevideo {
+    opacity: 0.7;
+  }
+  
