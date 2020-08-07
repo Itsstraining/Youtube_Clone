@@ -7,193 +7,223 @@
 
 <body style="background: #424242;">
 
-    <div class="header">
-        <ul class="item">
-            <div class="left">
-                <li><button>
+
+    <ul class="item">
+        <div class="left">
+            <li><button>
                         <img src="./img/mục lục.png" alt="Lựa chọn" width="30px" height="30px" type="button" onclick=""></li>
                     </button>
-                    <li><button>
+                <li><button>
                             <img src="./img/youtube.png" alt="Homepage" width="30px" height="30px"></li>
                         </button>
-                        <div class="input-container">
+                    <div class="input-container">
 
-                            <input class="input-field" type="text" placeholder="Tìm kiếm" name="Search">
-                            <i class="fa fa-search icon"></i>
-                            <li><button>
+                        <input class="input-field" type="text" placeholder="Tìm kiếm" name="Search">
+                        <i class="fa fa-search icon"></i>
+                        <li><button>
                                 <img src="./img/upload.png" alt="creat" width="30px" height="30px" type="button" onclick=""></li>
                             </button>
-                                <li><button>
+                            <li><button>
                                     <img src="./img/3x3.png" alt="ứng dụng" width="30px" height="30px"></li>
                                 </button>
-                                    <li><button>
+                                <li><button>
                                     <img src="./img/thông báo.png" alt="Thông báo" width="30px" height="30px"></li>
                                 </button>
-                                        <li><button>
+                                    <li><button>
                                     <img src="./img/acc.png" alt="Account" width="30px" height="30px"></li>
                                 </button>
-                        </div>
+                    </div>
+    </ul>
+    ------------------------------------
+    <div id="menu">
+
+        <ul>
+            <li><a type="button" name="TrangChu" onclick="hien1()">Trang chủ</a></li>
+            <li><a type="button" name="ThongBao" onclick="hien2()">Thông báo</a></li>
+            <li><a type="button" name="Phatlaivahieusuat" onclick="hien3()">Phát lại và hiệu suất</a></li>
+            <li><a type="button" name="Quyenriengtu" onclick="hien4()">Quyền riêng tư</a></li>
+            <li><a type="button" name="Taikhoanvaketnoi" onclick="hien5()">Tài khoản và kết nối</a></li>
+            <li><a type="button" name="XemTivi" onclick="hien6()">Xem trên Tivi</a></li>
+            <li><a type="button" name="thanhtoan" onclick="hien7()">lập hóa đơn và thanh toán</a></li>
+            <li><a type="button" name="caidatnangcao" onclick="hien8()">Cài đặt nâng cao</a></li>
+
         </ul>
-        ------------------------------------
-        <div id="menu">
-
-            <ul>
-                <li><a type="button" name="TrangChu" onclick="hien1()">Trang chủ</a></li>
-                <li><a type="button" name="ThongBao" onclick="hien2()">Thông báo</a></li>
-                <li><a type="button" name="Phatlaivahieusuat" onclick="hien3()">Phát lại và hiệu suất</a></li>
-                <li><a type="button" name="Quyenriengtu" onclick="hien4()">Quyền riêng tư</a></li>
-                <li><a type="button" name="Taikhoanvaketnoi" onclick="hien5()">Tài khoản và kết nối</a></li>
-                <li><a type="button" name="XemTivi" onclick="hien6()">Xem trên Tivi</a></li>
-                <li><a type="button" name="thanhtoan" onclick="hien7()">lập hóa đơn và thanh toán</a></li>
-                <li><a type="button" name="caidatnangcao" onclick="hien8()">Cài đặt nâng cao</a></li>
-
-            </ul>
 
 
 
-            <div id="hide1">
-                <p>Tài khoản</p>
-                <h2>Chọn cách bạn xuất hiện và nội dung bạn muốn xem trên YouTube
-                    <img src="./img/inAccount.png" alt="Ống nhòm" width="60" height="60"></h2>
-                <p style="color: rgb(170, 170, 170);">Đăng nhập bằng tài khoản của bạn</p>
-
-                ------------------------------------
-                <p>Kênh YouTube của bạn</p>
-                <p style="color: rgb(170, 170, 170)" ;>Đây là sự hiện diện công khai của bạn trên YouTube. Bạn cần có một kênh để tải video của riêng mình lên, bình luận về các video hoặc tạo danh sách phát.</p>
-
-                <div class=" display">
-                    <div>
-                        <p>Kênh của bạn</p>
-                    </div>
-
-                    <div style="margin-left: 7%; "><br>
-                        <a href="https://www.youtube.com/create_channel " style="color: rgb(62,166,255); ">Tạo 1 kênh</a>
-                    </div>
-
-                </div>
-                ------------------------------------
-                <p>Tài khoản của bạn</p>
-                <p style="color: rgb(170, 170, 170)" ;>Bạn đăng nhập YouTube bằng Tài khoản Google của mình </p>
-
-                <div class="display-3 ">
-                    <div>
-                        <p> Tài khoản Google </p>
-                    </div>
-                    <div style="margin-left: 5%; ">
-                        <p style="color: rgb(170, 170, 170)" ;><a href="https://myaccount.google.com/ " style="color:rgb(62,166,255) " ;>Xem hoặc thay đổi các tùy chọn cài đặt cho Tài khoản Google của bạn.</a><br>Bạn sẽ được chuyển đến trang Tài khoản Google của mình.</p>
-                    </div>
-                </div>
-
-                <div class="display-3">
-                    <div>
-                        <p>Tư cách thành viên </p>
-                    </div>
-                    <div style="margin-left: 5%; ">
-                        <p>Bạn chưa phải thành viên|<a href="# " style="color:rgb(62,166,255); ">Hãy đăng ký gói YouTube Premium></a><br> YouTube Premium cho phép bạn nghe nhạc không gián đoạn, xem video không có quảng cáo và nhiều lợi ích khác </p>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div id="hide2">
-
-                <p>Thông báo</p>
-                <h2 style="color: rgb(170, 170, 170)" ;>Chọn cách và thời gian bạn muốn nhận thông báo</h2>
-                <img src="./img/chim youtu.png " alt="Chim youtube " width="60 " height="60 " style="margin-left: 80% ">
-                <p>Chọn thông báo đẩy và thông báo qua email mà bạn muốn nhận </p>
-
+        <div id="hide1">
+            <div class="display">
                 <div>
-                    <p>Chung</p>
-                    <p style="color: rgb(170, 170, 170)" ;>Quản lý thông báo trên màn hình và trên thiết bị di động </p>
-                    <div class='display'>
+                    <p>Tài khoản </p>
+                    <h2>Chọn cách bạn xuất hiện và nội dung bạn muốn xem trên YouTube </h2>
+                    <p style="color: rgb(170, 170, 170);">Đăng nhập bằng tài khoản của bạn</p>
+                </div>
+                <div style="margin-left: 45;">
+                    <img src="./img/inAccount.png">
+                </div>
+            </div>
+            ------------------------------------
+            <p>Kênh YouTube của bạn</p>
+            <p style="color: rgb(170, 170, 170)" ;>Đây là sự hiện diện công khai của bạn trên YouTube. Bạn cần có một kênh để tải video của riêng mình lên, bình luận về các video hoặc tạo danh sách phát.</p>
+
+            <div class=" display">
+                <div>
+                    <p>Kênh của bạn</p>
+                </div>
+
+                <div style="margin-left: 7%; "><br>
+                    <a href="https://www.youtube.com/create_channel " style="color: rgb(62,166,255); ">Tạo 1 kênh</a>
+                </div>
+
+            </div>
+            ------------------------------------
+            <p>Tài khoản của bạn</p>
+            <p style="color: rgb(170, 170, 170)" ;>Bạn đăng nhập YouTube bằng Tài khoản Google của mình </p>
+
+            <div class="display-3 ">
+                <div>
+                    <p> Tài khoản Google </p>
+                </div>
+                <div style="margin-left: 5%; ">
+                    <p style="color: rgb(170, 170, 170)" ;><a href="https://myaccount.google.com/ " style="color:rgb(62,166,255) " ;>Xem hoặc thay đổi các tùy chọn cài đặt cho Tài khoản Google của bạn.</a><br>Bạn sẽ được chuyển đến trang Tài khoản Google của mình.</p>
+                </div>
+            </div>
+
+            <div class="display-3">
+                <div>
+                    <p>Tư cách thành viên </p>
+                </div>
+                <div style="margin-left: 5%; ">
+                    <p>Bạn chưa phải thành viên|<a href="# " style="color:rgb(62,166,255); ">Hãy đăng ký gói YouTube Premium></a><br> YouTube Premium cho phép bạn nghe nhạc không gián đoạn, xem video không có quảng cáo và nhiều lợi ích khác </p>
+                </div>
+            </div>
+        </div>
+        <div id="hide2">
+
+            <p>Thông báo</p>
+            <h2 style="color: rgb(170, 170, 170)" ;>Chọn cách và thời gian bạn muốn nhận thông báo</h2>
+            <img src="./img/chim youtu.png " alt="Chim youtube " width="60 " height="60 " style="margin-left: 80% ">
+            <p>Chọn thông báo đẩy và thông báo qua email mà bạn muốn nhận </p>
+
+            <div>
+                <p>Chung</p>
+                <p style="color: rgb(170, 170, 170)" ;>Quản lý thông báo trên màn hình và trên thiết bị di động </p>
+                <div class='display'>
+                    <div>
+                        <p>Thông báo trên màn hình</p>
+                    </div>
+                    <div class='display-2'>
+                        <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                           </label>
                         <div>
-                            <p>Thông báo trên màn hình</p>
+                            <p>Nhận thông báo trên trình duyệt này</p>
+                            <p><img src="./img/Chrome-Logo.png " alt="Chrome-logo " width="30 " height="30 ">Chrome</p>
+                            <p>Nhận thông báo trên máy tính ngay cả khi bạn không đang xem YouTube</p>
                         </div>
-                        <div class='display-2'>
-                            <label class="switch">
+                    </div>
+                </div>
+                <div class='display'>
+                    <div>
+                        <p>Tùy chọn của bạn</p>
+                    </div>
+                    <div class='display-2'>
+                        <label class="switch">
                                 <input type="checkbox">
                                 <span class="slider round"></span>
                            </label>
-                            <div>
-                                <p>Nhận thông báo trên trình duyệt này</p>
-                                <p><img src="./img/Chrome-Logo.png " alt="Chrome-logo " width="30 " height="30 ">Chrome</p>
-                                <p>Nhận thông báo trên máy tính ngay cả khi bạn không đang xem YouTube</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class='display'>
                         <div>
-                            <p>Tùy chọn của bạn</p>
+                            <p>Kênh đăng ký</p>
+
+                            <p>Thông báo cho tôi về hoạt động của <a style="color: rgb(62,166,255);" href="https://www.youtube.com/feed/channels">Các kênh đã đăng ký</a></p>
                         </div>
-                        <div class='display-2'>
-                            <label class="switch">
+                    </div>
+                    <div class='display-2'>
+                        <label class="switch">
                                 <input type="checkbox">
                                 <span class="slider round"></span>
                            </label>
-                            <div>
-                                <p>Kênh đăng ký</p>
+                        <div>
+                            <p>Kênh đăng ký</p>
 
-                                <p>Thông báo cho tôi về hoạt động của <a style="color: rgb(62,166,255);" href="https://www.youtube.com/feed/channels">Các kênh đã đăng ký</a></p>
-                            </div>
-                        </div>
-                        <div class='display-2'>
-                            <label class="switch">
-                                <input type="checkbox">
-                                <span class="slider round"></span>
-                           </label>
-                            <div>
-                                <p>Kênh đăng ký</p>
-
-                                <p>Thông báo cho tôi về hoạt động của <a style="color: rgb(62,166,255);" href="https://www.youtube.com/feed/channels">Các kênh đã đăng ký</a></p>
-                            </div>
+                            <p>Thông báo cho tôi về hoạt động của <a style="color: rgb(62,166,255);" href="https://www.youtube.com/feed/channels">Các kênh đã đăng ký</a></p>
                         </div>
                     </div>
+                </div>
 
+            </div>
+        </div>
+        <div id="hide8">
+            <div class="display">
+                <div>
+                    <p>Cài đặt nâng cao</p>
+                    <h2>Thiết lập Youtube theo ý bạn</h2>
+                </div>
+                <div style="margin-left: 45;">
+                    <img src="./img/setting.png">
                 </div>
             </div>
+            ------------------------------------
+            <div class="display">
+                <div>
+                    <p>id người dùng</p>
 
-            <div id="hide8">
-                <div class="display">
-                    <div>
-                        <p>Cài đặt nâng cao</p>
-                        <h2>Thiết lập Youtube theo ý bạn</h2>
-                    </div>
-                    <div style="margin-left: 45;">
-                        <img src="./img/setting.png">
-                    </div>
                 </div>
-                ------------------------------------
-                <div class="display">
-                    <div>
-                        <p>id người dùng</p>
-
-                    </div>
-                    <div style="margin-left: auto;">
-                        <input class="input-field" type="text" placeholder="XXXX-XXX-XXX" c disabled>
-                    </div>
+                <div style="margin-left: auto;">
+                    <input class="input-field" type="text" placeholder="XXXX-XXX-XXX" c disabled>
                 </div>
             </div>
-
-            <div id="hide6">
-                <div class="display">
-                    <div>
-                        <p>Xem trên TV</p>
-                        <h2>Phát video trên TV của bạn </h2>
-                        <p style="color: rgb(170, 170, 170);">Kết nối YouTube với TV của bạn </p>
-                    </div>
-                    <div style="margin-left: 45;">
-                        <img src="./img/chieu-youtube-tu-dien-thoai-len-tivi-samsung.jpg">
-                    </div>
+        </div>
+        <div id="hide6">
+            <div class="display">
+                <div>
+                    <p>Xem trên TV</p>
+                    <h2>Phát video trên TV của bạn </h2>
+                    <p style="color: rgb(170, 170, 170);">Kết nối YouTube với TV của bạn </p>
                 </div>
-                <ol style="background: none;" style="color: rgba(0,0,0,0);">
-                    <li> Chạy YouTube trên thiết bị TV của bạn. </li>
-                    <li> Điều hướng đến cài đặt và chọn "Liên kết TV và Điện thoại." </li>
-                    <li> Nhập mã TV màu xanh dương hiển thị trên TV vào hộp bên dưới. </li>
-                    <li> Nhấp vào biểu tượng<i class="fa fa-tv icon" style="background: none;"></i> để chọn màn hình sẽ phát video của bạn.</li>
-                </ol>
+                <div style="margin-left: 45;">
+                    <img src="./img/chieu-youtube-tu-dien-thoai-len-tivi-samsung.jpg">
+                </div>
             </div>
-
-            <script src="./script for setting.js ">
-            </script>
+            <ol style="background: none;" style="color: rgba(0,0,0,0);">
+                <li> Chạy YouTube trên thiết bị TV của bạn. </li>
+                <li> Điều hướng đến cài đặt và chọn "Liên kết TV và Điện thoại." </li>
+                <li> Nhập mã TV màu xanh dương hiển thị trên TV vào hộp bên dưới. </li>
+                <li> Nhấp vào biểu tượng<i class="fa fa-tv icon" style="background: none;"></i> để chọn màn hình sẽ phát video của bạn.</li>
+            </ol>
+        </div>
+        <div id="hide7">
+            <div class="display">
+                <div>
+                    <p>Lập hóa đơn và thanh toán </p>
+                    <h2>Chọn cách bạn mua hàng trên YouTube </h2>
+                    ------------------------------------
+                    <p>Đã tắt tính năng mua nhanh. </p>
+                    <div class="display">
+                        <div>
+                            <p style="color: rgb(170, 170, 170);">Bạn sẽ nhận được yêu cầu xác minh tài khoản cho mọi giao dịch mua trên YouTube</p>
+                        </div>
+                        <div class="display-3">
+                            <a href="https://www.youtube.com/account_billing" style="color: rgb(62,166,255);">Bật tính năng mua hàng</a>
+                        </div>
+                    </div>
+                    <a href="https://support.google.com/youtube/answer/7577041?visit_id=637323780467615812-2357585158&p=password_authentication&hl=vi&rd=1" style="color: rgb(62,166,255);">Tìm hiểu thêm về việc xác minh giao dịch mua</a>
+                </div>
+            </div>
+        </div>
+        <div id="hide3">
+            <div class="display">
+                <div>
+                    <p>Phát lại và hiệu suất</p>
+                    <h2>Kiểm soát trải nghiệm xem video của bạn </h2>
+                    <p style="color: rgb(170, 170, 170);">Các tùy chọn cài đặt phát lại chỉ áp dụng cho trình duyệt này</p>
+                </div>
+                <div style="margin-left: 45;">
+                    <img src="./img/glass.png">
+                </div>
+            </div>
+        </div>
+        <script src="./script for setting.js ">
+        </script>
 </body>
