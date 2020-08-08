@@ -1,40 +1,31 @@
-.item {
-    height: 75px;
-    background-size: auto;
-    background-color: #424242;
-    top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    margin-right: auto;
+header {
+    grid-area: header;
+    height: 55px;
+    border-bottom: 2px solid rgb(37, 37, 37);
+    display: grid;
+    grid-template-columns: 150px 1fr 250px;
+    padding: 0 10px 0 10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    position: fixed;
+    top: -0.2em;
+    width: 100%;
+    z-index: 1;
+    background: rgb(31, 30, 30);
 }
 
-.left * {
-    display: block;
-    border-right: 1px solid rgba(255, 255, 255, .3);
-    font-size: 1.6rem;
-    display: inline-block;
-    margin-bottom: 3px;
-    columns: #442244;
-    ;
-    margin-right: 10px;
-}
-
-.logo-index * {
-    align-items: center;
-    font-size: 1.6rem;
-    display: inline-block;
-    margin-bottom: 7px;
-    color: #fff;
+body {
+    background-image: url('https://images6.alphacoders.com/930/930345.jpg');
+    background-size: 100%;
+    display: grid;
 }
 
 
 /* commit a gian */
 
 #menu ul {
-    background: black;
-    width: 250px;
+    background: rgb(31, 30, 30);
+    width: auto;
     padding: 0;
     list-style-type: none;
     text-align: left;
@@ -97,7 +88,7 @@
 #menu {
     display: flex;
     justify-content: start;
-    color: white;
+    color: whitesmoke;
 }
 
 .switch {
@@ -214,7 +205,6 @@ img {
 
 .display-3 {
     display: flex;
-    justify-content: end;
 }
 
 .container {
@@ -292,4 +282,186 @@ img {
     height: 8px;
     border-radius: 50%;
     background: white;
+}
+
+.header-hamburger-logo {
+    position: relative;
+    top: 10px;
+}
+
+.header-yt-logo {
+    position: relative;
+    top: 7px;
+}
+
+.header-icons-bell {
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+.header-icons-profile {
+    width: 45px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.header-icons-grid {
+    position: relative;
+    top: 17px;
+    left: 20px;
+}
+
+.header-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: auto;
+}
+
+.header-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.search form {
+    width: 40%;
+    margin: auto;
+    color: black;
+}
+
+.search-icon {
+    float: right;
+    position: relative;
+    top: -20px;
+    height: 32px;
+    width: 30px;
+    left: 10px;
+}
+
+input[type=text] {
+    background-image: url('./imagekien/search.png');
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-top: 1%;
+    font-size: 16px;
+    background-color: #ccc;
+    outline: none;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+.wrapper {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper .title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+}
+
+.select_wrap {
+    width: 225px;
+    margin: 15px auto;
+    position: relative;
+    user-select: none;
+}
+
+.select_wrap .default_option {
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.select_wrap .default_option li {
+    padding: 10px 20px;
+}
+
+.select_wrap .default_option:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 6px;
+    height: 6px;
+    border: 2px solid;
+    border-color: transparent transparent #555555 #555555;
+    transform: rotate(-45deg);
+}
+
+.select_wrap .select_ul {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    display: none;
+}
+
+.select_wrap .select_ul li {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.select_wrap .select_ul li:first-child:hover {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.select_wrap .select_ul li:last-child:hover {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.select_wrap .select_ul li:hover {
+    background: #fff4dd;
+}
+
+.select_wrap .option {
+    display: flex;
+    align-items: center;
+}
+
+.select_wrap .option .icon {
+    background: url('https://i.imgur.com/oEZu0sK.png') no-repeat 0 0;
+    width: 32px;
+    height: 32px;
+    margin-right: 15px;
+}
+
+.select_wrap .option.pizza .icon {
+    background-position: 0 0;
+}
+
+.select_wrap .option.burger .icon {
+    background-position: 0 -35px;
+}
+
+.select_wrap .option.ice .icon {
+    background-position: 0 -72px;
+}
+
+.select_wrap .option.fries .icon {
+    background-position: 0 -111px;
+    width: 25px;
+}
+
+.select_wrap.active .select_ul {
+    display: block;
+}
+
+.select_wrap.active .default_option:before {
+    top: 25px;
+    transform: rotate(-225deg);
 }
